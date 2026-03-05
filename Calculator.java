@@ -7,7 +7,7 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
-		int bonus = 2;
+		int bonus = 5;
         Calculator calc = new Calculator();
         System.out.println("Rezultat: " + calc.aduna(5, 10));
     }
