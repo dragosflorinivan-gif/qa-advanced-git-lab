@@ -1,13 +1,13 @@
 public class Calculator {
+    private static final int BONUS = 2; // constantă a clasei
+
     // Calculeaza suma a doua numere
     public int aduna(int a, int b) {
-        // Temporar, adunam si un bonus hardcodat
-        int bonus = 5;
-        return a + b + bonus;
+        return a + b + BONUS;
     }
 
     public static void main(String[] args) {
         Calculator calc = new Calculator();
-        System.out.println("Rezultat: " + calc.aduna(5, 10));
+        System.out.println("Rezultat: " + calc.aduna(5, 10)); // Rezultat: 17
     }
 }
